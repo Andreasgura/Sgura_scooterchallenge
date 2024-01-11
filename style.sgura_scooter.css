@@ -1,0 +1,71 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5%;
+    border-radius: 5px;
+    width: 53%;
+    margin:auto
+}
+header > img {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+p {
+    text-align: center;
+    font-size:x-large;
+    color: rgb(84, 218, 23);
+    margin: 0;
+}
+nav {
+    background-color: rgb(84, 218, 23);
+    text-align: center;
+}
+nav > button {
+    border-radius: 2px;
+    border: 1px solid;
+    font-size:x-small;
+}
+main{
+    color: white;
+}
+main > div {
+    margin-top: 10px;
+    }
+.scooter_name {
+    display: inline-block;
+    font-size: medium;
+    margin-top: 0px;
+}
+div > span {
+    font-size: smaller;
+    margin: 0px;
+}
+.direction:before {
+        content: "\21A6";
+}
+#schooter1 {
+    width: 35%;
+    border-radius: 5px;
+    background-color: rgba(247, 181, 58, 1);
+    border: 1px solid rgba(247, 181, 58, 1);
+    padding: 10px;
+}
+#schooter2 {
+    width: 65%;
+    border-radius: 5px;
+    background-color: rgb(84, 218, 23);
+    border: 1px solid rgb(84, 218, 23);
+    padding: 10px;
+}
+#schooter3 {
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgb(221, 69, 69);
+    border: 1px solid rgb(221, 69, 69);
+    padding: 10px;
+}
